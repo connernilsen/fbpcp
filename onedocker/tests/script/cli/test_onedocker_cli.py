@@ -14,7 +14,6 @@ from unittest.mock import MagicMock, patch
 
 import yaml
 
-# pyre-ignore[21]
 from docopt import docopt, DocoptExit
 from fbpcp.entity.container_instance import ContainerInstanceStatus
 from fbpcp.service.container_aws import AWSContainerService
